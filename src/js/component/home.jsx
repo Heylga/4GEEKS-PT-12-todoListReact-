@@ -25,8 +25,11 @@ const Home = () => {
 				setTodos={setTodos}
 				inputText={inputText}
 			/>
-			<TodoList todos={todos} />
+			<TodoList todos={todos} setTodos={setTodos} />
 			<Todo />
+			<footer>
+				<h5>{}</h5>
+			</footer>
 		</div>
 	);
 };
