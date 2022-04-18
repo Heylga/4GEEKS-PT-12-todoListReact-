@@ -31,16 +31,9 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 				value={inputText}
 			/>
 			<button
-				className="todo-button"
+				className="todo-button border d-flex justify-content-center"
 				type="submit"
 				onClick={submitTodoHandler}></button>
-			{/* <div className="select">
-				<select name="todos" className="filter-todo">
-					<option value="all">All</option>
-					<option value="completed">Completed</option>
-					<option value="uncompleted">Uncompleted</option>
-				</select>
-			</div> */}
 		</form>
 	);
 };

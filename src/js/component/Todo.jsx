@@ -7,14 +7,13 @@ const Todo = ({ text, todo, todos, setTodos }) => {
 		setTodos(todos.filter((item) => item.id !== todo.id));
 	};
 	return (
-		<div className="todo border" style={{ width: "410px" }}>
+		<div className="todo border">
 			<li className="todo-item list-group-item d-flex justify-content-center">
 				{text}
 				<button onClick={deleteHandler} className="trash">
 					X
 				</button>
 			</li>
-			{/* <button className="check">✔️</button> */}
 		</div>
 	);
 };

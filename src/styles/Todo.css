@@ -1,6 +1,9 @@
-todo {
+.todo {
     display: flex;
     justify-content: center;
-    margin-left: 40%;
-    width: 400px;
+
+}
+.trash {
+    display: flex;
+    justify-content: center;
 }
