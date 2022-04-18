@@ -18,7 +18,7 @@ const Home = () => {
 	const [todos, setTodos] = useState([]);
 
 	return (
-		<div>
+		<div className="web w-auto p-3 h-auto">
 			<header>
 				<h1>TODO list</h1>
 			</header>
