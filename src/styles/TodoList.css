@@ -7,3 +7,11 @@ todo-list {
     display: flex;
     justify-content: center;
 }
+ul {
+  position: relative;
+  display: block;
+  padding: 20px 20px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
