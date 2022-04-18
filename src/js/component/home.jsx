@@ -9,6 +9,9 @@ import Form from "../component/Form.jsx";
 import TodoList from "../component/TodoList.jsx";
 import Todo from "../component/Todo.jsx";
 
+//css style
+import index from "../../styles/index.css";
+
 //create your first component
 const Home = () => {
 	const [inputText, setInputText] = useState("");
