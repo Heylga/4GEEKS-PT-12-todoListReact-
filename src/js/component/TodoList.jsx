@@ -16,6 +16,7 @@ const TodoList = ({ todos, setTodos }) => {
 						todo={todo}
 					/>
 				))}
+				<h5>{todos.length} item left</h5>
 			</ul>
 		</div>
 	);
