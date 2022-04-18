@@ -9,10 +9,7 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 
 	const submitTodoHandler = (e) => {
 		e.preventDefault();
-		setTodos([
-			...todos,
-			{ text: inputText, completedc: false, id: Math.random() * 1000 },
-		]);
+		setTodos([...todos, { text: inputText, id: Math.random() * 1000 }]);
 		setInputText("");
 	};
 

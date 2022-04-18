@@ -31,7 +31,7 @@ const Home = () => {
 			<TodoList todos={todos} setTodos={setTodos} />
 			<Todo />
 			<footer>
-				<h5>{}</h5>
+				<h5>{todos.length} item left</h5>
 			</footer>
 		</div>
 	);
