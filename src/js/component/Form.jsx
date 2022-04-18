@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/Form.css";
 
 const Form = ({ inputText, setInputText, setTodos, todos }) => {
 	const inputTextHandler = (e) => {
@@ -25,7 +26,7 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 		<form>
 			<input
 				type="text"
-				className="todo-input"
+				className="todo-input border d-flex justify-content-center"
 				onChange={inputTextHandler}
 				value={inputText}
 			/>
