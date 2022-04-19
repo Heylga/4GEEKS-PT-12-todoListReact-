@@ -10,9 +10,10 @@ const TodoList = ({ todos, setTodos }) => {
 			<ul className="todo-list list-group border d-flex justify-content-center">
 				{todos.map((todo) => (
 					<Todo
+						setTodos={setTodos}
+						todos={todos}
 						key={todo.id}
 						text={todo.text}
-						todos={todos}
 						todo={todo}
 					/>
 				))}
