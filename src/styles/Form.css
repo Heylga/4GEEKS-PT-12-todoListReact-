@@ -1,22 +1,28 @@
-input {
+/* input {
     display: flex;
     justify-content: center;
     margin-left: 40%;
     width: 400px;
     height: 40px;
-}
+} */
 button {     
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;   
-    color: grey;
 }
 button:hover {
    color: red;
 }
-form {
+/* form {
     height: 100%;
     background-color: rgb(228, 228, 228);
+} */
+
+.todo-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden; 
 }

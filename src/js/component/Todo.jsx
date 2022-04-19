@@ -9,7 +9,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
 	};
 
 	return (
-		<div className="todo border">
+		<div className="todo">
 			<li className="todo-item list-group-item d-flex justify-content-center">
 				{text}
 				<button onClick={deleteHandler} className="trash">

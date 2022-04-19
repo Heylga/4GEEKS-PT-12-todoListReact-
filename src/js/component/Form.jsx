@@ -20,13 +20,14 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 	};
 
 	return (
-		<form>
+		<form class=" d-flex justify-content-center">
 			<input
 				type="text"
 				className="todo-input border d-flex justify-content-center"
 				onChange={inputTextHandler}
 				value={inputText}
 				placeholder="What needs to be done?"
+				onClick={onUserTyping}
 			/>
 			<button
 				className="todo-button border d-flex justify-content-center"

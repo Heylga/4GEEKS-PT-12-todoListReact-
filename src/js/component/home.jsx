@@ -18,9 +18,9 @@ const Home = () => {
 	const [todos, setTodos] = useState([]);
 
 	return (
-		<div className="web w-auto p-3 h-auto">
+		<div className="web ">
 			<header>
-				<h1>todos</h1>
+				<h1 className="text-center display-1">todos</h1>
 			</header>
 			<Form
 				setInputText={setInputText}
