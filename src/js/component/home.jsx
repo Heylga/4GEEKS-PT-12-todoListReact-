@@ -20,7 +20,7 @@ const Home = () => {
 	return (
 		<div className="web w-auto p-3 h-auto">
 			<header>
-				<h1>TODO list</h1>
+				<h1>todos</h1>
 			</header>
 			<Form
 				setInputText={setInputText}
