@@ -30,7 +30,7 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 				onKeyDown={onUserTyping}
 			/>
 			<button
-				className="todo-button border d-flex justify-content-center"
+				// className="todo-button border d-flex justify-content-center"
 				type="submit"
 				onClick={submitTodoHandler}></button>
 		</form>
