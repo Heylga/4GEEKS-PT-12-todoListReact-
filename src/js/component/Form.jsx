@@ -27,7 +27,7 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 				onChange={inputTextHandler}
 				value={inputText}
 				placeholder="What needs to be done?"
-				onClick={onUserTyping}
+				onKeyDown={onUserTyping}
 			/>
 			<button
 				className="todo-button border d-flex justify-content-center"
