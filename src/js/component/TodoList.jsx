@@ -7,7 +7,7 @@ const TodoList = ({ todos, setTodos }) => {
 	console.log(todos);
 	return (
 		<div className="todo-container d-flex justify-content-center">
-			<ul className="todo-list list-group d-flex justify-content-center">
+			<ul className="todo-list list-group d-flex justify-content-center ">
 				{todos.map((todo) => (
 					<Todo
 						setTodos={setTodos}

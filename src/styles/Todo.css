@@ -1,10 +1,7 @@
 .todo {
     border-bottom: 1 px solid white;
 }
-.trash {
-    display: flex;
-    justify-content: center;
-}
+
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
