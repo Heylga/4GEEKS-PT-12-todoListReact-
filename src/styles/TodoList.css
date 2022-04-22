@@ -3,3 +3,12 @@
     margin-top: 2rem;
     border-top: 2px solid white;
 }
+h5 {
+    font-style: italic;
+    color:rgb(201, 191, 191);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}

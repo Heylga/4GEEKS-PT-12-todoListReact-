@@ -29,7 +29,6 @@ const Home = () => {
 				inputText={inputText}
 			/>
 			<TodoList todos={todos} setTodos={setTodos} />
-			<Todo />
 		</div>
 	);
 };
