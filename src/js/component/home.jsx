@@ -18,7 +18,7 @@ const Home = () => {
 	const [todos, setTodos] = useState([]);
 
 	return (
-		<div className="web ">
+		<div className="web">
 			<header>
 				<h1 className="text-center display-1">todos</h1>
 			</header>

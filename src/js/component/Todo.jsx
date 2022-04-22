@@ -10,7 +10,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
 
 	return (
 		<div className="todo">
-			<li>
+			<li className="list-group-item d-flex justify-content-center">
 				{text}
 				<button onClick={deleteHandler} className="trash ">
 					X
