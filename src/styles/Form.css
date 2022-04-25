@@ -1,10 +1,4 @@
-/* input {
-    display: flex;
-    justify-content: center;
-    margin-left: 40%;
-    width: 400px;
-    height: 40px;
-} */
+
 button {     
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -15,11 +9,6 @@ button {
 button:hover {
    color: red;
 }
-/* form {
-    height: 100%;
-    background-color: rgb(228, 228, 228);
-} */
-
 .todo-button {
     background-color: Transparent;
     background-repeat:no-repeat;

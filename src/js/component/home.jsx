@@ -23,6 +23,7 @@ const Home = () => {
 				<h1 className="text-center display-1">todos</h1>
 			</header>
 			<Form
+				className="d-flex justify-content-center list-group-item w-25 fs-4 py-3 shadow p-3"
 				setInputText={setInputText}
 				todos={todos}
 				setTodos={setTodos}

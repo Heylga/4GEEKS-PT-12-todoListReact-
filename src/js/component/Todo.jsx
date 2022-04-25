@@ -9,13 +9,13 @@ const Todo = ({ text, todo, todos, setTodos }) => {
 	};
 
 	return (
-		<div className="todo">
+		<div className="todo d-flex justify-content-center">
 			<li className="list-group-item d-flex justify-content-center">
 				{text}
 				<button onClick={deleteHandler} className="trash ">
 					X
 				</button>
-			</li>
+			</li>{" "}
 		</div>
 	);
 };

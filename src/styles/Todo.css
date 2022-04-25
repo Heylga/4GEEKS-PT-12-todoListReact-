@@ -1,14 +1,12 @@
-.todo {
-    border-bottom: 1 px solid white;
-}
+
 
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     overflow: hidden; 
-    float:right;
-}
-li {
-    text-transform: capitalize;
+    float: right;
+    display: none;
+    color: rgb(223, 215, 216);
+    display: block;
 }

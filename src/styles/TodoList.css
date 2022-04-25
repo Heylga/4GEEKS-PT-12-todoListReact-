@@ -1,14 +1,43 @@
-.todo-list {
-    list-style: none;
-    margin-top: 2rem;
-    border-top: 2px solid white;
-}
+
 h5 {
     font-style: italic;
-    color:rgb(159, 159, 159);
+    color:rgb(164, 162, 162);
+    background-color: white;
 }
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0
+
+.bottom {
+    height: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0;
+}
+
+.bottom-leaf {
+    height: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 0;
+}
+.bottom-last {
+    height: 5px;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 0;
+}
+::placeholder {
+    color: rgb(152, 152, 152);
+}
+
+.list-group-item {
+
+    color: rgb(152, 152, 152);
+    width: 390px;
+}
+.footer {
+    margin-left: 568px;
+    margin-left: 580px;
+}
+
+.todo-list  {
+    margin-left: -12px;
 }

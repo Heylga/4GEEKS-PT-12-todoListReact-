@@ -23,7 +23,7 @@ const Form = ({ inputText, setInputText, setTodos, todos }) => {
 		<form class=" d-flex justify-content-center">
 			<input
 				type="text"
-				className="todo-input border d-flex justify-content-center"
+				className="d-flex justify-content-center list-group-item w-25 fs-4 py-3 shadow p-3"
 				onChange={inputTextHandler}
 				value={inputText}
 				placeholder="What needs to be done?"
